@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  app: serene-chamber-15323
+  provider: heroku
+  api_key:
+    secure: MO4jQmWHcKfhNF+JBQbgMD9dxtubuP0Kb3b2Zd36knU6uJ4O4JqpTxqnGfwO0L63iBJ5ybscDrBQ/DekM3X6tAGw5WEG5ZvTwHQBVP4b1G6cmDI/oPp05uJAOywPuRlvEajMfBgEUcZoXNe1V39j4VpmZeVHBP9v41LdX9dYHkI5Hw3wGOXLj+LLSRHCTwxZGtZF+gzmkkCIwcVrVMp54r0TEBjIrQnpqjEEEEvf2E27nioSWE9kxjKpURAeJ6cWpW0OcCmn6ZweGcmwUx0QevWdPPAHKXxRNfAKHUFcy+Peu99BNGW7mwMbyx0ZXEjNPT0v6xggJ9pp/5ba8woxEMGogmTUFiCtEt971YT8ky07eOMqqEAQauX0iZ4TCnT16u6VVul9w93MWj6vccKoo39YJeYxsAtlFnzYi5LsAtevjwZ/Z2EBwJOBYbRSsFQpsUGMsn/D5vb30ycu/7ro9PsOqh9uwyjsIzsjOeRoW64CZGn1e6UzIKPgcy0ztm3JxGsQeZUwr3/sAEQz3VhOcVs39NdriDPR3JVVVLrXPYMf9tCxnd94NKBGhneMsK+y8bqPJW5S9mZxvuaiel4Wmr020yGQtdyE0c0ReZNk0fX/eonue7ZPC2Vvy2bvcPjFqBHt4K/o6AcsVUQ5LHm2fsFL4mjCViOaAntvfXA1bDw=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: deepbsd/node-shopping-list-integration-tests
